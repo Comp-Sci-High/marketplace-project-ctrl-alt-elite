@@ -1,18 +1,27 @@
-/* General styles */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f0ff; /* Soft purple background */
-    color: #3d1c5c; /* Deep purple for text */
+    background-color: #f8f0ff; 
+    color: #3d1c5c; 
     margin: 0;
     padding: 0;
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
 }
 .card{
     margin-top: 10px;
 }
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: #111;
+}
 
-/* Sidebar navigation */
 .bg-dark {
-    background-color: #4b0082 !important; /* Rich dark purple */
+    background-color: #4b0082 !important; 
 }
 
 .nav-link {
@@ -21,20 +30,18 @@ body {
 }
 
 .nav-link:hover {
-    color: #d1b3ff; /* Light lavender */
+    color: #d1b3ff; 
 }
 
-/* Sidebar container */
 .min-vh-100 {
     height: 100vh;
 }
 
-/* Sidebar menu items */
 .nav-pills .nav-link.active {
-    background-color: #7a33aa; /* Medium purple */
+    background-color: #7a33aa; 
 }
 
-/* Carousel */
+
 .carousel-inner img {
     height: 400px;
     object-fit: cover;
@@ -42,13 +49,13 @@ body {
 }
 
 .carousel-caption {
-    background: rgba(75, 0, 130, 0.7); /* Transparent dark purple overlay */
+    background: rgba(75, 0, 130, 0.7); 
     padding: 15px;
     border-radius: 10px;
     color: #ffffff;
 }
 
-/* Dropdown menu */
+
 .dropdown-menu {
     background-color: #4b0082;
     border-radius: 5px;
@@ -63,20 +70,19 @@ body {
     background-color: #7a33aa;
 }
 
-/* Main content */
 .col.py-3 {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
 }
 
-/* Custom button styles */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%);
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .carousel-inner img {
         height: 300px;
