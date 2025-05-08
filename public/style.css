@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f0ff; /* Soft purple background */
+    color: #3d1c5c; /* Deep purple for text */
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin-top: 10px;
+}
+
+/* Sidebar navigation */
+.bg-dark {
+    background-color: #4b0082 !important; /* Rich dark purple */
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d1b3ff; /* Light lavender */
+}
+
+/* Sidebar container */
+.min-vh-100 {
+    height: 100vh;
+}
+
+/* Sidebar menu items */
+.nav-pills .nav-link.active {
+    background-color: #7a33aa; /* Medium purple */
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background: rgba(75, 0, 130, 0.7); /* Transparent dark purple overlay */
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: #4b0082;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #7a33aa;
+}
+
+/* Main content */
+.col.py-3 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Custom button styles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+}
