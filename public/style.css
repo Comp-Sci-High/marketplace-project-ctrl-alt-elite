@@ -1,19 +1,17 @@
 
-body {
+\\body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f0ff; 
-    color: #3d1c5c; 
+    background-color: #000;
+    color: white;
+    text-align: center;
     margin: 0;
     padding: 0;
-    margin: 0;
-    background: #000;
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
 }
-.card{
+
+.card {
     margin-top: 10px;
 }
+
 canvas {
     display: block;
     margin: 0 auto;
@@ -21,7 +19,7 @@ canvas {
 }
 
 .bg-dark {
-    background-color: #4b0082 !important; 
+    background-color: #4b0082 !important;
 }
 
 .nav-link {
@@ -30,7 +28,7 @@ canvas {
 }
 
 .nav-link:hover {
-    color: #d1b3ff; 
+    color: #d1b3ff;
 }
 
 .min-vh-100 {
@@ -38,9 +36,8 @@ canvas {
 }
 
 .nav-pills .nav-link.active {
-    background-color: #7a33aa; 
+    background-color: #7a33aa;
 }
-
 
 .carousel-inner img {
     height: 400px;
@@ -49,12 +46,11 @@ canvas {
 }
 
 .carousel-caption {
-    background: rgba(75, 0, 130, 0.7); 
+    background: rgba(75, 0, 130, 0.7);
     padding: 15px;
     border-radius: 10px;
     color: #ffffff;
 }
-
 
 .dropdown-menu {
     background-color: #4b0082;
@@ -74,14 +70,13 @@ canvas {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
+    color: #3d1c5c; 
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%);
 }
-
 
 @media (max-width: 768px) {
     .carousel-inner img {
