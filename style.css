@@ -1,22 +1,26 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #000; 
+    background-color: #000;
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
 }
-
-.card {
-    margin-top: 10px;
+.card{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-
-canvas {
-    display: block;
-    margin: 0 auto;
-    background: #111;
+.cardImg{
+    width: 50%;
+    height: auto;
+    align-content: center;
 }
-
+.l {
+    position: sticky;
+    bottom: 0;
+}
 .bg-dark {
     background-color: #4b0082 !important;
 }
@@ -82,3 +86,4 @@ canvas {
         height: 300px;
     }
 }
+
