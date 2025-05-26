@@ -21,6 +21,10 @@ body {
     position: sticky;
     bottom: 0;
 }
+.rye{
+    width: 800px;
+    height: auto;
+}
 .bg-dark {
     background-color: #4b0082 !important;
 }
