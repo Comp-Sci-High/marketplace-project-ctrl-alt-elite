@@ -17,6 +17,9 @@ body {
     height: auto;
     align-content: center;
 }
+.v{
+    margin-top: 3%;
+}
 .l {
     position: sticky;
     bottom: 0;
